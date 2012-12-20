@@ -1,0 +1,89 @@
+div.page h1:first-child {
+	font-size: 3em;
+}
+div.head {
+	clear: both;
+	overflow: hidden;
+}
+
+
+.stylehead {
+	float: left;
+	margin-left: 2em;
+	margin-right: 2em;
+clear: right;	
+	line-height: 2em
+}
+div#search{
+	float: right;
+
+}
+
+.menu .menu-content {
+	margin-left: 5px;
+	display: none;
+	overflow: hidden;
+	background-color: white;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	padding: 4px;
+}
+.menu:hover .menu-content {
+	position: absolute;
+	border: 1px solid lightgray;
+	display: block;
+}
+.menu .menu-content a {
+	display: block;
+	float: left;
+	clear: left
+}
+
+
+
+
+
+
+
+
+.awesome, .awesome:visited {
+	background: #222 url(http://zurb.com/images/alert-overlay.png) repeat-x; 
+	display: inline-block; 
+	padding: 5px 10px 6px; 
+	color: #fff; 
+	text-decoration: none;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	position: relative;
+	cursor: pointer;
+}
+
+	.awesome:hover							{ background-color: #111; color: #fff; }
+	.awesome:active							{ top: 1px; }
+	.small.awesome, .small.awesome:visited 			{ font-size: 11px; padding: ; }
+	.awesome, .awesome:visited,
+	.medium.awesome, .medium.awesome:visited 		{ font-size: 13px; font-weight: bold; line-height: 1; text-shadow: 0 -1px 1px rgba(0,0,0,0.25); }
+	.large.awesome, .large.awesome:visited 			{ font-size: 14px; padding: 8px 14px 9px; }
+	
+	.green.awesome, .green.awesome:visited		{ background-color: #91bd09; }
+	.green.awesome:hover						{ background-color: #749a02; }
+	.blue.awesome, .blue.awesome:visited		{ background-color: #2daebf; }
+	.blue.awesome:hover							{ background-color: #007d9a; }
+	.red.awesome, .red.awesome:visited			{ background-color: #e33100; }
+	.red.awesome:hover							{ background-color: #872300; }
+	.magenta.awesome, .magenta.awesome:visited		{ background-color: #a9014b; }
+	.magenta.awesome:hover							{ background-color: #630030; }
+	.orange.awesome, .orange.awesome:visited		{ background-color: #ff5c00; }
+	.orange.awesome:hover							{ background-color: #d45500; }
+	.yellow.awesome, .yellow.awesome:visited		{ background-color: #ffb515; }
+	.yellow.awesome:hover							{ background-color: #fc9200; }
+	
+	
+	.darkblue.awesome, .darkblue.awesome:visited{background-color: #4773c7;}
+	.darkblue.awesome:hover{background-color: #538ff4;}
+	.menu:hover .darkblue.awesome {background-color: #538ff4;}
+	
+	
