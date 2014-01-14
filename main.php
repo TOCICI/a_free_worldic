@@ -42,7 +42,7 @@ require_once(dirname(__FILE__).'/tpl_functions.php');
     <?php html_msgarea()?>
     <div class="head">
       <div class="menu" id="menu" style="float: left">
-      	<div class="menu-title small darkblue awesome"><span class="gear" style="line-height: 0.5em; font-size: 1.5em; magin-bottom: -0.1em">⚙</span> Actions</div>
+        <div class="menu-title small darkblue awesome">Actions</div>
         <div class="menu-content">
           <?php 
             if(!tpl_getConf('closedwiki') || (tpl_getConf('closedwiki') && isset($_SERVER['REMOTE_USER']))) {
