@@ -407,7 +407,7 @@ div.dokuwiki div.menu-content a.edit,
 div.dokuwiki div.menu-content a.source,
 div.dokuwiki div.menu-content a.show,
 div.dokuwiki div.menu-content a.admin,
-div.dokuwiki div.menu-content a.revisions,
+div.dokuwiki div.menu-content a.revs,
 div.dokuwiki div.menu-content a.subscribe,
 div.dokuwiki div.menu-content a.subscribens,
 div.dokuwiki div.menu-content a.unsubscribe,
@@ -451,7 +451,7 @@ div.dokuwiki div.menu-content a.admin {
   background: transparent url(images/tool-admin.png) 0px 5px no-repeat;
 }
 
-div.dokuwiki div.menu-content a.revisions {
+div.dokuwiki div.menu-content a.revs {
   background: transparent url(images/tool-revisions.png) 0px 5px no-repeat;
 }
 
